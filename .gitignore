@@ -1,0 +1,29 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# IDE & AI tools
+.claude/
+.codex/
+.cursor/
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+
+# Build output
+public/assets/
+
+# Runtime data
+storage/
+reports/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
